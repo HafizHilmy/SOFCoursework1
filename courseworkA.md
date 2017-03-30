@@ -13,9 +13,19 @@ An	email	client
 A	database
 
 ## **Functional requirements of the system**
-Statements	of	services	the	system	should	provide,	how	the	system	should	react	to	particular	inputs	and	how	the	system should	behave	in particular	situations.  
-User	requirements  
-System	requirements  
+***User	requirements***
+1. **Action** : User login and access their email account  
+**Pre-condition**: User enters email and password correctly  
+**Post-condition**: User enters email home page  
+
+2. **Action** : User login and access their email account  
+**Pre-condition**: User enters email and password
+**Post-condition**: User enters email home page  
+
+
+***System	requirements***    
+
+
 
 ## **Non-functional requirements of the system**
 Constraints	on	the	services	or	functions	offered	by	the	system	such	as	timing	constraints,	constraints	on	the	development	process,	standards,	etc
