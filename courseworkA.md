@@ -8,7 +8,7 @@ The purpose of this document is to provide a detailed description of an Email Cl
 ## **System Overview**
 The Email System will allow users to manage and access their emails with ease while allowing users to preview, save or delete the email after viewing. The system will allow communication between different users and allow rights of an email to different users.
 
-This system will be mostly used in homes where it will display itself on display panel monitors. A database containing data account and emails is contained in the system.
+This system will be mostly used in homes where it will display itself on display panel monitors. A database containing data account and emails is contained and stored in the system.
 
 
 ## **Functional requirements of the system**
@@ -28,40 +28,43 @@ This system will be mostly used in homes where it will display itself on display
 2. **User Sets Action Status To An Email**    
 ***Function*** User sets an action status to an email where the user will be able to mark email to the 'personal', 'immediate action', 'pending action', or 'social' status.
 ***Pre-condition***: User sets and marks email with an action status  
-***Action*** :  1.User sets email to an action status <br/> 2. Email is marked with an action status <br/> 3. Email is sent to the specific action status mark displayed   
-***Post-condition***: Email is marked with an action status and s 
+***Action*** :  1.User sets email to an action status <br/> 2. Email is marked with an action status <br/> 3. Email is sent to the specific folder labeled with the given status    
+***Post-condition***: Email is marked with an action status and sent to folder
 
 
-***System	requirements***    
-1.  **Display Manager**  
-***Function*** : Finds a specific networked display monitor in the home and connect/disconnect networked display monitor to the email system
+***System	requirements***  
+
+1.  **Email Filter Manager**  
+***Function*** : Email received by system is filtered and sent to a specific user account linked by their email address
+***Pre-condition***:  Email is received
+***Action*** :  1. Email is received by the system <br/> 2. System connects to the display panel <br/> 3. Checks the connection status of display monitor
+***Post-condition***: Email is sent to an account according to the email
+
+2.  **Display Manager**  
+***Function*** : Finds a specific networked display monitor in the home and connect/disconnect networked display monitor to the email system  
 ***Pre-condition***:  System locates and connects to a specific display monitor  
-***Action*** :  1. System locates a display monitor <br/> 2. System connects to the display panel <br/> 3. Checks the connection status of display monitor
+***Action*** :  1. System locates a display monitor <br/> 2. System connects to the display panel <br/> 3. Checks the connection status of display monitor  
 ***Post-condition***: Display monitor is connected to email system  
 
-2.  **Database**  
+3.  **Database**  
 ***Function*** : Store email and account data of user  
 ***Pre-condition***:  Email and data of user added to system  
 ***Action*** :  1. Data of user is added by the user <br/> 2. The system stores the data in the database  
 ***Post-condition***: Database receives and stores email and data of user  
 
-3.  **Account manager**  
+4.  **Account manager**  
 ***Function*** : Add/delete user email accounts to the system(database) or assign email rights to a user  
 ***Pre-condition***:  Add/Delete email account of a new user to the system's database  
 ***Action*** :  1. User enters new email account <br/> 2. System adds a new user's email account to the database <br/> 3. Email account is added to database  
 ***Post-condition***: User email is added to database
 
-4.  **Email Client**  
-***Function*** : Retrieve email from user accounts and move and show email to display panel  
-***Pre-condition***:  System locates and connects to a specific display panels  
-***Action*** :  1. System locates a display panel <br/> 2. System connects to the display panel <br/> 3. Monitors the connection status of display panel until disconnected  
-***Post-condition***: Display panel is connected to email system
+5.  **Email Client**  
+***Function*** : Retrieve email from user accounts and show email to display monitor  
+***Pre-condition***:  Email is retrieve from user account  
+***Action*** :  1. Email is retrieve from user account <br/> 2. System connects to a display monitor <br/> 3. Email is displayed on monitor  
+***Post-condition***: Email is displayed on monitor
 
-4.  **Email Client**  
-***Function*** : Retrieve email from user accounts and move and show email to display panel  
-***Pre-condition***:  System locates and connects to a specific display panels  
-***Action*** :  1. System locates a display panel <br/> 2. System connects to the display panel <br/> 3. Monitors the connection status of display panel until disconnected  
-***Post-condition***: Display panel is connected to email system
+
 
 
 ## **Non-functional requirements of the system**
