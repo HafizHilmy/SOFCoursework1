@@ -3,7 +3,7 @@ Name : Mohd Hafiz Hilmy
 Student ID : 4240176
 
 ## **Document Introduction**
-The purpose of this document is to provide a detailed description of an Email Client System. It explains the features and functionality of the email system, what the system will do, the constraints of the system and how the system works in homes.
+The purpose of this document is to provide a detailed description of an Email Client System. It explains the features and functionality of the email system, what the system will do, the constraints of the system and how the system works in homes. Diagrams are also provide to explain further details on the system.
 
 ## **System Overview**
 The Email System will allow users to manage and access their emails with ease while allowing users to preview, save or delete the email after viewing. The system will allow communication between different users and allow rights of an email to different users.
@@ -19,7 +19,7 @@ This system will be mostly used in homes where it will display itself on display
 ***Action*** :  User enters their email and password access their email account   
 ***Post-condition***: User continues and enters the email client home page    
 
-2. **User Read Email Then Delete/Archive**    
+2. **User Reads Email Then Delete/Archive**    
 ***Function*** Allow user to read email and then either delete or archive the email  
 ***Pre-condition***: User reads the email  
 ***Action*** :  1.User opens email <br/> 2. User reads the email <br/> 3. User then chooses to delete or archive email   
@@ -75,5 +75,7 @@ This system will be mostly used in homes where it will display itself on display
 6. **Ease of use** - The system should be easily
 7. **Security** - A password structure is implemented and only certain users can access the email client system
 
-## **Formal Description Of The System Behaviour**
+## **Description Of The System Behaviour**
 Sequence diagram or state machine diagram
+
+![sequence](https://github.com/HafizHilmy/SOFCoursework/blob/master/Loginuser.jpg?raw=true)
