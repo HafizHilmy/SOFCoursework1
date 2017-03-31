@@ -11,8 +11,8 @@ The Email System will allow users to manage and access their emails with ease wh
 This system will be mostly used in homes where it will display itself on display panel monitors. A database containing data account and emails is contained and stored in the system.
 
 
-## **Functional requirements of the system**
-***User	requirements***
+## **User requirements of the system**
+
 1. **User Account Login**  
 ***Function*** : Allow users to login to the email client system  
 ***Pre-condition*** : User enters email and password correctly  
@@ -20,24 +20,25 @@ This system will be mostly used in homes where it will display itself on display
 ***Post-condition***: User continues and enters the email client home page    
 
 2. **User Read Email Then Delete/Archive**    
-***Function*** Allow user to read email and then either delete or archive the email
+***Function*** Allow user to read email and then either delete or archive the email  
 ***Pre-condition***: User reads the email  
 ***Action*** :  1.User opens email <br/> 2. User reads the email <br/> 3. User then chooses to delete or archive email   
 ***Post-condition***: User deletes or archives email  
 
 2. **User Sets Action Status To An Email**    
-***Function*** User sets an action status to an email where the user will be able to mark email to the 'personal', 'immediate action', 'pending action', or 'social' status.
+***Function*** User sets an action status to an email where the user will be able to mark email to the 'personal', 'immediate action', 'pending action', or 'social' status  
 ***Pre-condition***: User sets and marks email with an action status  
-***Action*** :  1.User sets email to an action status <br/> 2. Email is marked with an action status <br/> 3. Email is sent to the specific folder labeled with the given status    
+***Action*** :  1.User sets email to an action status <br/> 2. Email is marked with an action status <br/> 3. Email is sent to the specific folder labeled with the given status      
 ***Post-condition***: Email is marked with an action status and sent to folder
 
 
-***System	requirements***  
+## **System requirements**
+<H5> **Functional requirements of the system**
 
 1.  **Email Filter Manager**  
-***Function*** : Email received by system is filtered and sent to a specific user account linked by their email address
-***Pre-condition***:  Email is received
-***Action*** :  1. Email is received by the system <br/> 2. System connects to the display panel <br/> 3. Checks the connection status of display monitor
+***Function*** : Email received by system is filtered and sent to a specific user account linked by their email address  
+***Pre-condition***:  Email is received by system
+***Action*** :  1. Email is received by the system <br/> 2. System connects to the display panel <br/> 3. Checks the connection status of display monitor  
 ***Post-condition***: Email is sent to an account according to the email
 
 2.  **Display Manager**  
@@ -65,9 +66,7 @@ This system will be mostly used in homes where it will display itself on display
 ***Post-condition***: Email is displayed on monitor
 
 
-
-
-## **Non-functional requirements of the system**
+<H5> **Non-functional requirements of the system**
 1. **Performance of the system** - System should perform at a fast response time
 2. **Memory Capacity of the system** - Memory capacity of the email system should not exceed limit
 3. **Internet Connectivity** - Internet connection should be active 24 hours daily and be accessed by the system
